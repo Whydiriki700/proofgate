@@ -6,6 +6,8 @@ ProofGate is a Hermes Agent plugin that verifies an agent's completion claims ag
 
 Most plugins give agents new powers. ProofGate does the opposite: it holds the agent accountable for the powers it already has.
 
+> **Status:** Submitted to the official Hermes plugin catalog ([NousResearch/hermes-agent#149185](https://github.com/NousResearch/hermes-agent/pull/149185), under review). Built for the Hermes Agent Plugin Hackathon; the demo was recorded from a real Hermes session.
+
 ## Why
 
 The most dangerous failure mode of an autonomous agent is not a wrong answer. It is a false report that work got done: a file "created" that does not exist, a message "sent" that actually failed, a price "checked" that was never looked up. You find out later, usually after acting on the report.
@@ -82,3 +84,13 @@ The checker (`checker.py`) is pure Python with no Hermes imports, so the verific
 ## License
 
 MIT
+
+---
+
+**More by the same author**
+
+- [ProofGate](https://github.com/Whydiriki700/proofgate): no proof, no done. Agent completion claims checked against tool evidence, fail closed.
+- [money-magnet](https://github.com/Whydiriki700/money-magnet): finance tracker, budget alerts, crypto portfolio PnL and arbitrage scanner for Hermes Agent.
+- [Token Dashboard](https://github.com/Whydiriki700/token-dashboard): live token usage and cost dashboard for Hermes Desktop.
+- [Osvyn Hub](https://github.com/Whydiriki700/Osvyn-Hub-Muse): multi-account manager for Muse on Windows.
+- Osvyn on Telegram: [t.me/osvynofficial](https://t.me/osvynofficial)
