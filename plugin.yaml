@@ -1,0 +1,11 @@
+name: proofgate
+version: 0.1.0
+description: "No proof, no 'done'. ProofGate verifies an agent's completion claims (file created, message sent, command ran, figures quoted) against the tool evidence recorded in the same session, before the user reads the final reply. Unproven claims are flagged or withheld, fail closed, and every verdict is written to an append-only local ledger."
+author: "Riki Wahyudi"
+requires_hermes: ">=0.22.0"
+provides_tools:
+  - proof_status
+provides_hooks:
+  - post_tool_call
+  - pre_llm_call
+  - transform_llm_output
