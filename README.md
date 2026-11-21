@@ -1,3 +1,5 @@
+![proofgate](assets/preview.png)
+
 # ProofGate
 
 **No proof, no "done".**
